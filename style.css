@@ -48,8 +48,8 @@
 /*INTRO --> image de debut */
 #intro{
     position: relative;
-    /*emplacement de l'image de fond*/
-    background: url("../img/fond.png") no-repeat;
+    /*emplacement de l'image de fond ../img/ */
+    background: url("fond.png") no-repeat;
     /*taille de l'image de fond*/
     background-size:100%;
     /*position de l'image de fond*/
