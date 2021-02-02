@@ -1,9 +1,209 @@
+
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Example</title>
-    </head>
-    <body>
-        <p>This is an example of a simple HTML page with one paragraph.</p>
-    </body>
-</html>
+<!-- saved from url=(0090)http://10.1.2.175:8080/files/default/sites/Balises/files/html/QUIZ-Riad-Sattouf/index.html -->
+<html data-lt-installed="true"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title> quiz </title>
+    <link rel="stylesheet" href="./quiz_files/reset.css">
+    <link rel="stylesheet" href="./quiz_files/style.css">
+    <script src="./quiz_files/jquery.js.téléchargement" style="color: rgb(0, 0, 0);"></script>
+    <script src="./quiz_files/colorjquery.js.téléchargement"></script>
+    <script src="./quiz_files/javascript.js.téléchargement"></script>
+    
+    <!--<script src="js/debug.js"></script>-->
+    
+
+</head>
+
+<body id="questionnaire">
+<section class="wrapper">
+<!--intro-->
+    <!-- Ne pas rajouter de balise <p> ou <h->, remplacer simplement le texte.-->
+    <section class="hide" id="intro" style="display: block;">
+        <article>
+            <h1>Cinq questions sur l'exposition Riad Sattouf</h1>
+            <button id="start">Jouer</button>
+        </article>
+    </section>
+
+<!-- Q1-->
+    <section class="hide" id="Q1" style="display: none;">
+        <article class="nq">
+            <h1>1</h1>
+        </article>
+        <section class="txt">
+            <article class="question">
+                <!-- Ne pas rajouter de balise <p>, remplacer simplement le texte.-->
+                <p>Quelle héroïne de Riad Sattouf a fait la couverture du magazine <i>L'Obs</i> en novembre 2017&nbsp;?</p>
+            </article>
+            <article class="rep">
+                <button value="false">Florence (<i>Les Pauvres Aventures de Jérémy</i>)</button>
+                <button value="true">Esther (<i>Les Cahiers d'Esther)</i></button>
+                <button value="false" class="end">la mère du petit Riad (<i>L’Arabe du futur</i>)</button>
+             </article>
+        </section>
+    </section>
+<!-- R1-->
+    <section class="hide" id="R1" style="display: none;">
+        <article class="nq">
+            <h1>1</h1>
+        </article>
+        <section class="txt">
+                <article class="reponse">
+                    <!-- Ne pas rajouter de balise <p>, remplacer simplement le texte. La réponse argumentée doit se trouver dans le span.-->
+                    <p>Réponse<br><span>À l'occasion d'un dossier intitulé «&nbsp;À quoi rêvent les petites filles&nbsp;?&nbsp;», <i>L'Obs</i> dédie sa couverture à Esther, l’héroïne de Riad Sattouf. Le magazine la connaît bien puisqu'il publie tous les jeudis depuis 2014 une planche de ses histoires. Riad Sattouf réalise cette bande dessinée à partir des récits qu'une vraie fillette lui fait de son quotidien depuis ses 9 ans. Il espère la suivre et dessiner ses aventures jusqu'à ses 18 ans.</span></p>
+                    <button class="next"> suivant</button>
+                </article>
+        </section>
+    </section>
+
+<!-- Q2-->
+    <section class="hide" id="Q2" style="display: none;">
+        <article class="nq">
+            <h1>2</h1>
+        </article>
+        <section class="txt">
+            <article class="question">
+                <!-- Ne pas rajouter de balise <p>, remplacer simplement le texte.-->
+                <p>Dans son film <i>Jacky au royaume des filles</i>, Riad Sattouf imagine la version inversée d'un célèbre conte classique. Lequel&nbsp;?</p>
+            </article>
+            <article class="rep">
+                <!-- LA BONNE REPONSE PORTE : value="true" les fausse value="false", vous pouvez modifier l'ordre des value selon la réponse.-->
+                <button value="false"><i>Le Petit Chaperon rouge</i></button>
+                <button value="true"><i>Cendrillon</i></button>
+                <button value="false" class="end"><i>Ali Baba et les 40 voleurs</i></button>
+             </article>
+        </section>
+    </section>
+<!-- R2-->
+    <section class="hide" id="R2" style="display: none;">
+        <article class="nq">
+            <h1>2</h1>
+        </article>
+        <section class="txt">
+                <article class="reponse">
+                    <!-- Ne pas rajouter de balise <p>, remplacer simplement le texte. La réponse argumentée doit se trouver dans le span.-->
+                    <p>Réponse<br><span>En 2014, Riad Sattouf réalise sa propre version de <i>Cendrillon</i>. Il y inverse les rapports de domination, en transférant le pouvoir des hommes aux femmes. Le film interroge, sur un ton humoristique et décalé, les effets du patriarcat et du conditionnement culturel des sexes sur une société.</span></p>
+                    <button class="next"> suivant</button>
+                </article>
+        </section>
+    </section>
+
+<!-- Q3-->
+    <section class="hide" id="Q3" style="display: none;">
+        <article class="nq">
+            <h1>3</h1>
+        </article>
+        <section class="txt">
+            <article class="question">
+                <!-- Ne pas rajouter de balise <p>, remplacer simplement le texte.-->
+                <p>Dans l'exposition, Riad Sattouf rend hommage aux maîtres qui ont contribué à son éveil artistique. Quel grand dessinateur figure parmi les originaux qu'il a choisi de présenter&nbsp;? </p>
+            </article>
+            <article class="rep">
+                <!-- LA BONNE REPONSE PORTE : value="true" les fausse value="false", vous pouvez modifier l'ordre des value selon la réponse.-->
+                <button value="false">Art Spiegelman</button>
+                <button value="false">Franquin</button>
+                <button value="true" class="end">Mœbius</button>
+                </article>
+        </section>
+    </section>
+<!-- R3-->
+    <section class="hide" id="R3" style="display: none;">
+        <article class="nq">
+            <h1>3</h1>
+        </article>
+        <section class="txt">
+                <article class="reponse">
+                    <!-- Ne pas rajouter de balise <p>, remplacer simplement le texte. La réponse argumentée doit se trouver dans le span.-->
+                    <p>Réponse<br><span>Depuis le lycée, Riad Sattouf est fasciné par le travail de Mœbius, également connu sous son vrai nom, Jean Giraud. Riad Sattouf passe de nombreuses soirées à dessiner à la manière de Mœbius. <br>Collectionneur, Riad Sattouf possède des planches originales d'autres auteurs qu'il admire comme Richard Corben ou Robert Crumb.</span></p>
+                    <button class="next"> suivant</button>
+                </article>
+        </section>
+    </section>
+
+
+<!-- Q4-->
+    <section class="hide" id="Q4" style="display: none;">
+        <article class="nq">
+            <h1>4</h1>
+        </article>
+        <section class="txt">
+            <article class="question">
+                <!-- Ne pas rajouter de balise <p>, remplacer simplement le texte.-->
+                <p>Inspiré par les figures d'Arnold Schwarzenegger ou de Sylvester Stallone, quel personnage de Riad Sattouf se joue des codes de l'hypervirilité&nbsp;?</p>
+            </article>
+            <article class="rep">
+                <!-- LA BONNE REPONSE PORTE : value="true" les fausse value="false", vous pouvez modifier l'ordre des value selon la réponse.-->
+                <button value="false">Jean Kastout</button>
+                <button value="false">José Costo</button>
+                <button value="true" class="end">Pascal Brutal</button>
+                </article>
+        </section>
+    </section>
+<!-- R4-->
+    <section class="hide" id="R4" style="display: none;">
+        <article class="nq">
+            <h1>4</h1>
+        </article>
+        <section class="txt">
+                <article class="reponse">
+                    <!-- Ne pas rajouter de balise <p>, remplacer simplement le texte. La réponse argumentée doit se trouver dans le span.-->
+                    <p>Réponse<br><span><i>Pascal Brutal</i> paraît d'abord dans la revue <i>Fluide Glacial</i>, à partir de 2006, avant d'être publié en album. <br>Pascal vit dans une société absurde, régie par les lois d’un libéralisme immodéré, où les rapports de pouvoir entre les forts et les faibles sont poussés à l’extrême. À la fois gros bras et hyper sensible, Pascal cultive l’ambivalence et incarne probablement l’un des personnages les plus parodiques de l’œuvre de Riad Sattouf. </span></p>
+                    <button class="next"> suivant</button>
+                </article>
+        </section>
+    </section>
+
+
+<!-- Q5-->
+    <section class="hide" id="Q5" style="display: none;">
+        <article class="nq">
+            <h1>5</h1>
+        </article>
+        <section class="txt">
+            <article class="question">
+                <!-- Ne pas rajouter de balise <p>, remplacer simplement le texte.-->
+                <p>Quel animal, cher au père de Riad Sattouf, jaillit au bout du couloir dans la dernière partie de l'exposition&nbsp;? </p>
+            </article>
+            <article class="rep final">
+                <!-- LA BONNE REPONSE PORTE : value="true" les fausse value="false", vous pouvez modifier l'ordre des value selon la réponse.-->
+                <button value="false">un pipit farlouze</button>
+                <button value="true">un taureau</button>
+                <button value="false" class="end">un chat</button>
+                </article>
+        </section>
+    </section>
+<!-- R5-->
+    <section class="hide" id="R5" style="display: none;">
+        <article class="nq">
+            <h1>5</h1>
+        </article>
+        <section class="txt">
+                <article class="reponse">
+                    <!-- Ne pas rajouter de balise <p>, remplacer simplement le texte. La réponse argumentée doit se trouver dans le span.-->
+                    <p>Réponse<br><span>La figurine de ce taureau «&nbsp;en plastique noir porte-bonheur&nbsp;» apparaît en pointillé dans toute l’œuvre de Riad Sattouf. Le poser sur le poste de télévision est la première chose que fait le père de Riad lorsque la famille emménage en Libye : «&nbsp;cela signifiait, pour mon père, qu’il était chez lui&nbsp;». <br> Une nuit, le petit Riad fait un rêve étrange&nbsp;: il se perd dans un labyrinthe à la sortie duquel l'attend un énorme taureau menaçant.</span></p>
+
+
+                    <button class="next" value="end"> suivant</button>
+                </article>
+        </section>
+    </section>
+
+
+<!--outro-->
+    <section class="hide" id="outro" style="display: none;">
+        <article>
+            <h1 id="resultat"></h1>
+            <article>
+                <p id="fin"><br></p>
+            </article>
+            <button id="aggain">Rejouer</button>
+        </article>
+    </section>
+    <section class="buzzer">
+        <p id="verif"></p>
+    </section>
+</section>
+
+
+</body></html>
