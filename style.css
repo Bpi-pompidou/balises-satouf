@@ -88,7 +88,7 @@
 #outro{
     position: relative;
     /*emplacement de l'image de fond*/
-    background: url("../img/fond.png") no-repeat;
+    background: url("fond.png") no-repeat;
     /*taille de l'image de fond*/
     background-size:257%;
     /*position de l'image de fond*/
@@ -214,7 +214,7 @@
 
 /*QUESTIONS == POUR AJUSTER LA TAILLE DES IMAGES DES QUESTIONS, à voir en fonction des images*/
 #Q1{
-    background: url("../img/img-1.jpg") no-repeat rgba(255, 0, 0, .1);
+    background: url("img-1.jpg") no-repeat rgba(255, 0, 0, .1);
     /*taille de l'image de fond*/
     background-size: 200%;
     position: absolute;
@@ -224,7 +224,7 @@
 }
 
 #Q2{
-    background: url("../img/img-2.jpg") no-repeat rgba(0, 0, 0, .1);
+    background: url("img-2.jpg") no-repeat rgba(0, 0, 0, .1);
     /*taille de l'image de fond*/
     background-size: 221%;
     position: absolute;
@@ -233,7 +233,7 @@
     z-index: 9 ; 
 }
 #Q3{
-    background: url("../img/img-3.jpg") no-repeat rgba(0, 250, 0, .1);
+    background: url("img-3.jpg") no-repeat rgba(0, 250, 0, .1);
     /*taille de l'image de fond*/
     background-size: 200%;
     position: absolute;
@@ -242,7 +242,7 @@
     z-index: 9 ; 
 }
 #Q4{
-    background: url("../img/img-4.jpg") no-repeat rgba(0, 8, 117, 0.178);
+    background: url("img-4.jpg") no-repeat rgba(0, 8, 117, 0.178);
     /*taille de l'image de fond*/
     background-size: 205%;
     BACKGROUND-POSITION-X: -118PX ;
@@ -252,7 +252,7 @@
     z-index: 9 ; 
 }
 #Q5{
-    background: url("../img/img-5.jpg") no-repeat rgba(255, 150, 0, .1);
+    background: url("img-5.jpg") no-repeat rgba(255, 150, 0, .1);
     /*taille de l'image de fond*/
     background-size: 208%;
     position: absolute;
@@ -265,7 +265,7 @@
 
 /*REPONSES == POUR AJUSTER LA TAILLE DES IMAGE POUR LES REPONSES, doivent etre les même valeur que pour les questions*/
 #R1{
-    background: url("../img/img-1.jpg") no-repeat rgba(255, 0, 0, .1);
+    background: url("img-1.jpg") no-repeat rgba(255, 0, 0, .1);
     /*taille de l'image de fond*/
     background-size: 200%;
     position: absolute;
@@ -274,7 +274,7 @@
     z-index: 10 ;
 }
 #R2{
-    background: url("../img/img-2.jpg") no-repeat rgba(0, 0, 0, .1);
+    background: url("img-2.jpg") no-repeat rgba(0, 0, 0, .1);
     /*taille de l'image de fond*/
     background-size: 221%;
     position: absolute;
@@ -283,7 +283,7 @@
     z-index: 10 ;
 }
 #R3{
-    background: url("../img/img-3.jpg") no-repeat rgba(0, 255, 0, .1);
+    background: url("img-3.jpg") no-repeat rgba(0, 255, 0, .1);
     /*taille de l'image de fond*/
     background-size: 200%;
     position: absolute;
@@ -292,7 +292,7 @@
     z-index: 10 ;
 }
 #R4{
-    background: url("../img/img-4.jpg") no-repeat rgba(0, 8, 117, 0.178);
+    background: url("img-4.jpg") no-repeat rgba(0, 8, 117, 0.178);
     /*taille de l'image de fond*/
     background-size: 205%;
     BACKGROUND-POSITION-X: -118PX ;
@@ -304,7 +304,7 @@
     
 }
 #R5{
-    background: url("../img/img-5.jpg") no-repeat rgba(255, 150, 0, .1);
+    background: url("img-5.jpg") no-repeat rgba(255, 150, 0, .1);
     /*taille de l'image de fond*/
     background-size: 208%;
     position: absolute;
